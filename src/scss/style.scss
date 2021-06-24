@@ -4,6 +4,8 @@
 
 h1.title {
     color: $color;
+    text-decoration: overline;
+    background-color: red;
 }
 
 .img {
@@ -11,4 +13,10 @@ h1.title {
     width: 100px;
     height:100px;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.section {
+    background-color: purple;
+    padding: 1rem;
 }
